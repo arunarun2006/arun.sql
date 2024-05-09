@@ -1,0 +1,13 @@
+-- select left("car",10) from cars\
+-- select right ("car",10) from cars
+-- select upper("car") from cars
+-- select lower ("car") from cars
+-- select ltrim("car") from cars
+-- select rtrim("car") from cars
+-- select trim ("car") from cars
+-- select "car" , length("car") from cars order by "length"
+-- select "car", substring("car",8,6) from cars
+
+
+
+
