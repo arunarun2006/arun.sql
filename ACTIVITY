@@ -1,0 +1,54 @@
+ select * from emp 
+QNO-1
+	 
+ select DISTINCT "dept" from emp
+	 
+QNO-2
+ select sum("salary") from emp
+	 
+QNO-3
+ select  * from emp
+ where "salary" =(select min("salary") from emp)
+	 
+QNO-4
+SELECT max("salary") as "maxsalary"
+from emp
+where "dept" = 'IT_PROG' 
+	 
+QNO-5
+select avg("salary" ) as "avgsalary",
+count(*) as "number of employes"
+from emp
+where "deptid"= 50
+	 
+QNO-6
+select count(*) as  total,
+min("salary") as "minimumsalary",
+max ("salary") as "maximumsalary", 
+ sum ("salary" )as "totalsalary",
+ avg ("salary") as "averagesalary"
+ from emp
+	 
+QNO-7
+ select  count("dept"),DEPT  as "number of employes" from emp
+ group by "dept"
+	 
+QNO-8
+ select max("salary")-min("salary") as "difference between salary"
+ from emp
+	 
+QNO-9
+ select "managerid",
+ min("salary") as "minimum salary"
+ from emp
+ group by "managerid"
+	 -- SELECT * FROM EMP WHERE MANAGERID=101
+
+
+QNO-10
+ select "deptid",
+ sum("salary") as "total salary"
+ from emp
+ group by "deptid"
+
+
