@@ -1,0 +1,28 @@
+-- FILTER EXACT DATA
+-- select * from students
+-- select "name","starting date" from students
+-- where "starting date" = '2022-07-25'
+-- FILTER DATA GREATER\LESSER
+-- select * from students
+--where "starting date" <'2022-08-17'
+-- FILTER DATES BETWEEN RANGE
+-- select * from students
+-- where "starting date"
+-- -- between '2022-08-17' and '2022-12-03'
+-- FILTER DATES RANGE USING AND
+-- select * from students
+-- where "starting date" >= '2022-08-01'
+-- and "starting date" <= '2022-08-30' order by "starting date"
+-- SELECT YEARS FROM DATE COLUMN
+-- select "name" ,
+-- extract (year from "ending date") as "joined year"
+-- from students
+-- FILTER DATE OF SPECIFIC YEAR
+-- select * from students
+-- where extract(year from "ending date")='2022'
+-- FILTER DATES OF SPECIFIC MONTH
+-- select "name","ending date" from students 
+-- where extract(month from "ending date")='08'
+-- FILTER BY DATA DIFFERENCE
+-- select * from students
+-- where extract(year from "ending date")='2022'

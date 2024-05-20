@@ -1,0 +1,20 @@
+-- select avg("weight")
+-- as "average weight" from cars
+-- select count("weight")
+-- as "number of rows" from cars
+-- select max("weight")
+-- as "maxweight" from cars
+-- select min("weight")
+--  as "maxweight" from cars
+-- select sum("weight")
+-- as "sum of weight" from cars
+-- select "car","weight" from cars 
+-- where "weight" = (select min("weight") from cars)
+
+-- select count(distinct("orgin")) from cars
+
+-- select count (*) as items,
+-- min("weight") as "minimum weight",
+-- max("weight") as "maximum weight",
+-- avg("weight") as "average weight"
+-- from cars

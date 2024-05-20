@@ -1,0 +1,15 @@
+-- select * from employees
+-- insert into employees 
+-- values('0004', 'Dharsha', 'EEE', '35000'),
+-- 	('0005', 'Velvizhi', 'CSE', '45000'),
+-- ('0006', 'Abisha', 'ECE', '45000'),
+-- ('0007', 'Dhivyabharathi', 'ECE', '50000'),
+-- ('0008', 'Yazhini', 'IT', '50000')
+-- select * from employees order by "empid" asc
+-- select distinct "dept" from employees
+-- update employees
+-- set "dept" = 'IT' where "empid" = '0002'
+-- delete from employees where "empid" = '0004'
+-- call  insert_employee('0004','Dharsha', 'CSE', '40000')
+-- select * from employees where "empname" = 'Jeevasree'
+-- select max("salary") from employees 

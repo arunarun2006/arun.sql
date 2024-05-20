@@ -1,0 +1,10 @@
+ -- CASE WHEN
+ -- select "orgin",
+ -- case
+ -- 	when "orgin"= 'US' then 1
+	-- when "orgin"= 'Japan' then 2
+ -- 	when "orgin"= 'Europe' then 3
+ -- end as "orginmaps"
+-- from cars
+-- REPLACE FUNCTION
+ -- select replace("orgin", 'US','USA') as orgin from cars

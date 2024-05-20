@@ -1,0 +1,21 @@
+-- select * from basics
+-- select * from basics limit 100
+-- select * from rating limit 100
+-- select "primary type" , "averagerating" ,"numvotes"
+-- from basics,rating
+-- where basics."tconst" = rating."tconst" order by numvotes desc 
+-- select "primary type", "genere","averagerating" ,"numvotes"
+-- from basics
+-- left join rating
+-- on basics."tconst" = rating."tconst"
+-- limit 100
+-- select "primary type" , "genere", "averagerating","numvotes"
+-- from basics
+-- right join rating
+-- on basics."tconst" = rating."tconst"
+-- limit 1000
+ select "primary type" , "genere", "averagerating","numvotes"
+ from basics
+ full outer join rating
+ on basics."tconst" = rating."tconst"
+limit 1000

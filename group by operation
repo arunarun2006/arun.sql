@@ -1,0 +1,13 @@
+-- select "orgin", count(*)
+-- from cars group by "orgin"
+--  select "car", count(*)
+-- from cars group by "car"
+-- having count (*) > 1
+-- select "car",count(*)
+-- from cars where "orgin" ='japan'
+-- group by "car"
+-- having count(*) > 1
+-- select "car",count(*) as "count"
+-- from cars group by "car"
+-- having count(8) > 1
+-- order by "count" desc

@@ -1,20 +1,8 @@
--- select * from cars order by car
--- select * from cars
--- where "car" ='Ford Torino'
--- select * from cars where "cylinders" > 7 order by "car"
--- select * from cars where "cylinders" <> 5 order by "cylinders"
--- select * from cars where "cylinders" between 3 and 7 order by "cylinders"
--- select * from cars where "cylinders" is null
--- select * from cars where "cylinders"=8 and "mpg"=14
---select * from cars where "cylinders"=8 or "cylinders" =5 order by "cylinders"
--- select * from cars where ("mpg"=16 or "mpg"=17) and "cylinders"=6
--- select * from cars where "mpg" in (16,17,18) order by "mpg"
--- select * from cars where "mpg" not in (16,17,18) order by "mpg"
--- select * from cars where "car" like 'Ford%'
--- select * from cars where "car" like '%Skylark%'
--- select * from cars where "car" like '%Skylark ___'
--- select right("car",8) from cars
--- select upper("car") from cars
-
-
-
+-- select "car", abs("mpg") from cars
+-- select "car","mpg"  *pi() from cars
+-- select "car",sqrt("mpg") from cars \
+-- select "car","mpg",
+-- sin(radians("mpg")),
+-- cos(radians("mpg")),
+-- tan(radians("mpg"))
+-- -- from cars

@@ -1,0 +1,7 @@
+-- SELECT "car" || ' : '||"weight" from cars
+-- select "car","weight" *1000
+-- 	as "weight(grams)"
+-- 	from cars order by "weight(grams)"
+-- select "car","mpg"/"cylinders"
+-- as "mpg/cyl" from cars
+
